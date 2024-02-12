@@ -13,13 +13,13 @@ and then the probability of measuring a weight in interval $I=[x_1,x_2]$ of bean
 
 $P_{\mu,\sigma}(I) = \int_{x_1}^{x_2} p_{\mu,\sigma}(x) dx$
 
-The mean weight of bean type A, $\mu_A$ is 5 grams and the standard deviation, $\sigma_A$, is 2. The mean weight of bean type B, $mu_B$, is 4 grams and has a standard deviation $\sigma_B$, of  1.4.
+The mean weight of bean type A, $\mu_A$ is 5 grams and the standard deviation, $\sigma_A$, is 2. The mean weight of bean type B, $\mu_B$, is 4 grams and has a standard deviation $\sigma_B$, of  1.4.
 
 Our classifier $C_T(x)$ is determined by a weight threshold $T$:
 
-$f\_T(x) = -1 \mbox{ if } x \leq T $
+$f_T(x) = -1 \ if: x \leq T $
 
-$f\_T(x) = 1  \mbox{ if } T < x  .$
+$f_T(x) = 1  \ if: T < x  .$
 
 The [*Bayes error*](https://en.wikipedia.org/wiki/Bayes_error_rate) is the probability that we will misclassify. Assume  that there are equally many beans of each type (no prior).
 
